@@ -34,8 +34,7 @@ next step in simple language, escalate dangerous symptoms at once, and never dia
 
 ## Screenshots
 
-No screenshots are included because none were captured in the authoring environment. To add them, run the app, open
-`http://localhost:5173`, capture the welcome, conversation and result screens and save them under `docs/images/`.
+
 
 ## Architecture
 
