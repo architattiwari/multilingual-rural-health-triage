@@ -1,0 +1,11 @@
+# Runtime dependencies, pinned to the versions the test suite was run against.
+fastapi==0.142.2            # HTTP API and OpenAPI generation
+starlette==1.7.0            # ASGI toolkit used directly for middleware
+uvicorn==0.54.0             # ASGI server
+pydantic==2.13.5            # schema validation for requests, state and LLM output
+pydantic-settings==2.15.0   # environment based configuration
+SQLAlchemy==2.1.2           # ORM
+alembic==1.20.0             # database migrations
+psycopg[binary]==3.3.6      # PostgreSQL driver (SQLite needs no driver)
+httpx==0.28.1               # HTTP client for speech, TTS and LLM providers
+python-multipart==0.0.32    # multipart parsing for audio uploads
